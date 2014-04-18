@@ -1,0 +1,32 @@
+{
+  "name": "pull-unique-combine",
+  "description": "Like pull-stream's unique through stream but requires a result to be present in all streams",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/pull-unique-combine.git"
+  },
+  "keywords": [
+    "stream",
+    "pull-stream",
+    "combine",
+    "unique"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/pull-unique-combine/issues"
+  },
+  "homepage": "https://github.com/binocarlos/pull-unique-combine",
+  "dependencies": {
+    "pull-stream": "^2.22.0"
+  },
+  "devDependencies": {
+    "pull-cat": "^1.1.5",
+    "tape": "^2.12.3"
+  }
+}
