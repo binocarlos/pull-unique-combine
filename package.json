@@ -1,7 +1,7 @@
 {
   "name": "pull-unique-combine",
   "description": "Like pull-stream's unique through stream but requires a result to be present in all streams",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
